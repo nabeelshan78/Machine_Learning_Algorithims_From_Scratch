@@ -50,3 +50,12 @@ Install dependencies:
 
 ```bash
 pip install numpy matplotlib pandas scikit-learn
+
+---
+```
+
+## 👨‍💻 Author
+
+Developed by a university student exploring machine learning and AI from scratch.
+
+---
