@@ -91,6 +91,8 @@ Where $\alpha$ is the learning rate.
 
 ## 👨‍💻 Author
 
-Developed by a university student exploring machine learning and AI from scratch.
+- [Nabeel Shan](https://github.com/nabeelshan78)
+
+A university student exploring machine learning and AI from scratch.
 
 ---
