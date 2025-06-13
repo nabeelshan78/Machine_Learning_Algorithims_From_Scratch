@@ -11,6 +11,7 @@ This project provides a Python implementation of the **logistic regression algor
 - 📉 **Gradient Descent**: Implements batch gradient descent to optimize weights and bias.
 - 📊 **Visualization**: Plots both:
   - The initial dataset
+  - Cost function over iterations
   - The decision boundary learned by the model
 
 ---
@@ -23,29 +24,7 @@ Make sure you have Python 3 installed along with the following libraries:
 - `matplotlib`
 - `scikit-learn`
 - `pandas`
-
-Install dependencies using pip:
-
-```bash
-pip install numpy matplotlib scikit-learn pandas
-```
-
----
-
-## 🚀 Usage
-
-1. Save the code as a Python file (e.g., `logistic_regression.py`)
-2. Open your terminal or command prompt.
-3. Navigate to the directory where you saved the file.
-4. Run the script:
-
-```bash
-python logistic_regression.py
-```
-
-The script will display:
-- A scatter plot of the initial dataset
-- A plot showing the learned decision boundary with background probabilities
+- `math`
 
 ---
 
@@ -77,6 +56,12 @@ and $\sigma$ is the sigmoid function.
 #### Gradient Computation
 
 - `compute_gradient(X, y, w, b)` computes gradients of the cost function with respect to weights and bias.
+![image](https://github.com/user-attachments/assets/5f341991-17dc-4e05-8091-d3eb1dd7d87c)
+![image](https://github.com/user-attachments/assets/6f26718b-17f2-4517-8128-cd980051c46f)
+![image](https://github.com/user-attachments/assets/c98bf50d-ad6c-40e3-8dab-7a2ee5d05818)
+
+
+
 
 #### Gradient Descent
 
@@ -92,29 +77,15 @@ $$
 
 Where $\alpha$ is the learning rate.
 
-### 3. Prediction and Decision Boundary
+### 3. Cost Function 
+![image](https://github.com/user-attachments/assets/d6f610ca-eebe-4c78-ba5f-d5ebff9977e5)
+
+
+### 4. Prediction and Decision Boundary
 
 - `predict(X, w, b)`: Computes predicted probabilities.
 - Uses `matplotlib.contourf` to draw the decision boundary where the model predicts $P(y=1|x)=0.5$.
-
----
-
-## 📊 Output Visualizations
-
-The script produces the following plots:
-
-1. **Initial Data**: Scatter plot of the two classes.
-2. **Decision Boundary**: The learned decision boundary with predicted probabilities visualized as a heatmap.
-
----
-
-## 📚 Further Ideas
-
-- Add L2 Regularization
-- Try Stochastic or Mini-batch Gradient Descent
-- Add learning curves
-- Animate gradient descent steps
-- Compare results with `scikit-learn`'s `LogisticRegression`
+![image](https://github.com/user-attachments/assets/2ef3219b-90c1-4bd1-beae-1d8a2ec820e2)
 
 ---
 
