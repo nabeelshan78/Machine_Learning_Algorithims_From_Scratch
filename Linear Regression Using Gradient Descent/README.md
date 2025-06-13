@@ -105,6 +105,8 @@ pip install numpy matplotlib pandas scikit-learn
 
 ## 👨‍💻 Author
 
-Developed by a university student exploring machine learning and AI from scratch.
+- [Nabeel Shan](https://github.com/nabeelshan78)
+
+A university student exploring machine learning and AI from scratch.
 
 ---
