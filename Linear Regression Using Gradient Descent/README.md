@@ -27,6 +27,49 @@ Where:
 
 ---
 
+## Gradients Calculation
+Cost Function
+
+$$
+J(w, b) = \frac{1}{2m} \sum_{i=1}^{m} \left( \hat{y}^{(i)} - y^{(i)} \right)^2
+$$
+
+Where:
+$\hat{y}^{(i)} = w^T x^{(i)} + b = \sum_{j=1}^{n} w_j x_j^{(i)} + b$
+- \( m \) is the number of training examples
+- \( n \) is the number of features
+
+Derivative w.r.t w  
+
+$$
+\frac{\partial J(w, b)}{\partial w_j} 
+= \frac{1}{2m} \sum_{i=1}^{m} 2 \left( \hat{y}^{(i)} - y^{(i)} \right) \cdot \frac{\partial \hat{y}^{(i)}}{\partial w_j}
+$$
+
+So the gradient becomes:
+
+$$
+\frac{\partial J(w, b)}{\partial w_j} = \frac{1}{m} \sum_{i=1}^{m} \left( \hat{y}^{(i)} - y^{(i)} \right) x_j^{(i)}
+$$
+
+$$
+\frac{\partial J(w, b)}{\partial w} 
+= \frac{1}{2m} \sum_{i=1}^{m} 2 \left( (w^T x^{(i)} + b) - y^{(i)} \right) x^{(i)}
+= \frac{1}{m} \sum_{i=1}^{m} \left( \hat{y}^{(i)} - y^{(i)} \right) x^{(i)}
+$$
+
+Derivative w.r.t b  
+
+$$
+\frac{\partial J(w, b)}{\partial b} 
+= \frac{1}{2m} \sum_{i=1}^{m} 2 \left( \hat{y}^{(i)} - y^{(i)} \right) \cdot \frac{\partial \hat{y}^{(i)}}{\partial b}
+$$
+
+$$
+\frac{\partial J(w, b)}{\partial b} = \frac{1}{m} \sum_{i=1}^{m} \left( \hat{y}^{(i)} - y^{(i)} \right)
+$$
+
+
 ## 🔁 Gradient Descent Updates
 
 The parameters are updated as follows:
@@ -43,6 +86,12 @@ Where:
 - $\alpha$ is the learning rate
 
 ---
+
+## Cost over Iterations
+![image](https://github.com/user-attachments/assets/42e51397-acf6-475d-b838-b3dc7bde6df3)
+
+---
+
 
 ## 📦 Requirements
 
