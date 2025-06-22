@@ -37,7 +37,6 @@ $$
 
 ## ✅ Results (on Iris Dataset)
 
-My Accuracy: 96.67 %  
-Sklearn Accuracy: 90.00 %
+![image](https://github.com/user-attachments/assets/62c201f2-fc15-4985-806b-b379771e67af)
 
 ---
