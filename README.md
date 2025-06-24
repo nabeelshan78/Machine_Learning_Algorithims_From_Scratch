@@ -21,7 +21,7 @@ A hands-on project implementing core Machine Learning algorithms **from scratch*
 
 | Algorithm | Description | Link |
 |----------|-------------|------|
-| 📈 **Linear Regression** | Implements linear regression using gradient descent | [View Folder](./Linear_Regression) |
+| 📈 **Linear Regression** | Implements linear regression using gradient descent | [View Folder](./Linear_Regression_Using_Gradient_Descent) |
 | 🔐 **Logistic Regression** | Binary classification using sigmoid + gradient descent | [View Folder](./Logistic_Regression) |
 | 🧠 **Logistic Regression (NN mindset)** | Logistic regression implemented like a single-layer neural network | [View Folder](./Logistic_Regression_NN) |
 | 🌳 **Decision Tree** | CART-based decision tree classifier built from scratch | [View Folder](./Decision_Tree) |
