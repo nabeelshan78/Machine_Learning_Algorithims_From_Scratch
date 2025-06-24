@@ -24,6 +24,7 @@ A hands-on project implementing core Machine Learning algorithms **from scratch*
 | 📈 **Linear Regression** | Implements linear regression using gradient descent | [View Folder](./Linear%20Regression%20Using%20Gradient%20Descent) |
 | 🔐 **Logistic Regression** | Binary classification using sigmoid + gradient descent | [View Folder](./Logistic%20Regression%20Using%20Gradient%20Descent) |
 | 🧠 **Logistic Regression (NN mindset)** | Logistic regression implemented like a single-layer neural network | [View Folder](./Logistic_Regression_with_a_Neural_Network_mindset) |
+| 🧠🧱 **Two-Layer Neural Network** | A shallow neural net with one hidden layer trained from scratch on 2D datasets | [View Folder](./Two_Layer_Neural_Net_Scratch) |
 | 🌳 **Decision Tree** | Decision tree classifier built from scratch | [View Folder](./DecisionTree_Scratch) |
 
 ---
