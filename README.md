@@ -21,29 +21,12 @@ A hands-on project implementing core Machine Learning algorithms **from scratch*
 
 | Algorithm | Description | Link |
 |----------|-------------|------|
-| 📈 **Linear Regression** | Implements linear regression using gradient descent | [View Folder](./Linear%20Regression%20Using%20Gradient%20Descent)
-) |
-| 🔐 **Logistic Regression** | Binary classification using sigmoid + gradient descent | [View Folder](./Logistic_Regression) |
-| 🧠 **Logistic Regression (NN mindset)** | Logistic regression implemented like a single-layer neural network | [View Folder](./Logistic_Regression_NN) |
-| 🌳 **Decision Tree** | CART-based decision tree classifier built from scratch | [View Folder](./Decision_Tree) |
-
-> 💡 More coming soon — check the roadmap below!
+| 📈 **Linear Regression** | Implements linear regression using gradient descent | [View Folder](./Linear%20Regression%20Using%20Gradient%20Descent) |
+| 🔐 **Logistic Regression** | Binary classification using sigmoid + gradient descent | [View Folder](./Logistic%20Regression%20Using%20Gradient%20Descent) |
+| 🧠 **Logistic Regression (NN mindset)** | Logistic regression implemented like a single-layer neural network | [View Folder](./Logistic_Regression_with_a_Neural_Network_mindset) |
+| 🌳 **Decision Tree** | Decision tree classifier built from scratch | [View Folder](./DecisionTree_Scratch) |
 
 ---
-
-## 🛣️ Roadmap
-
-Here's what's planned next:
-
-- [x] Linear Regression
-- [x] Logistic Regression
-- [x] Decision Tree
-- [ ] Naive Bayes
-- [ ] K-Nearest Neighbors (KNN)
-- [ ] Support Vector Machines (SVM)
-- [ ] Principal Component Analysis (PCA)
-- [ ] Neural Network (from scratch!)
-- [ ] Gradient Boosting & Ensemble Methods
 
 Feel free to open an issue if you have ideas or requests!
 
